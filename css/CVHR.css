@@ -1,0 +1,33 @@
+body {
+  min-height: 2000px;
+}
+
+.jumbotron {
+  padding-top: 2rem;
+  background-color: hsla(24, 7%, 73%, 0.627);
+  background: url(../img/city.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 600px;
+}
+
+.jumbotron h1 {
+  font-weight: 600;
+}
+
+.jumbotron p {
+  font-weight: 400;
+}
+
+.navbar a {
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: auto;
+  transition: 2s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #ededed;
+}
