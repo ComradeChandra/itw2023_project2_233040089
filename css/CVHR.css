@@ -1,7 +1,9 @@
 body {
   min-height: 2000px;
+  background-color: rgb(177, 166, 166);
 }
 
+/* gambar + text */
 .jumbotron {
   padding-top: 2rem;
   background-color: hsla(24, 7%, 73%, 0.627);
@@ -19,6 +21,27 @@ body {
   font-weight: 400;
 }
 
+.About-Us {
+  width: auto;
+  color: #ffffff;
+  background: url(../img/work.jpg);
+  font-weight: 600;
+}
+
+.About-Director h1 {
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.About-Director profile-img {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.About-Director-Content {
+  margin-top: 3rem;
+}
+/* transisi */
 .navbar a {
   font-size: 17px;
   text-decoration: none;
