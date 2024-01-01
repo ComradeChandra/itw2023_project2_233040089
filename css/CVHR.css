@@ -3,6 +3,10 @@ body {
   background-color: rgb(177, 166, 166);
 }
 
+section {
+  padding-top: 5rem;
+}
+
 /* gambar + text */
 .jumbotron {
   padding-top: 6rem;
